@@ -678,6 +678,11 @@
     height: auto;     /* Isso mantém a proporção da imagem */
     display: block;   /* Ajuda a evitar espaços indesejados */
 }
+        .image-placeholder img {
+    max-width: 200px; /* Defina a largura máxima que você deseja para a logo */
+    height: auto;     /* Isso mantém a proporção da imagem */
+    display: block;   /* Ajuda a evitar espaços indesejados */
+}        
         /* --- Media Queries for Responsiveness --- */
         @media (max-width: 768px) {
             .hero-container,
@@ -748,8 +753,7 @@
             </div>
             <div class="hero-image-container">
                 <div class="image-placeholder">
-                    <div class="image-placeholder-title">IMAGEM 2: Produto Principal</div>
-                    <div class="image-placeholder-subtitle">Destaque do produto/método</div>
+                    <img src="Principal.png" alt="Produto Principal">
                 </div>
             </div>
         </div>
