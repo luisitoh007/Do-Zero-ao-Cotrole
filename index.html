@@ -698,6 +698,13 @@
     height: auto;     /* Isso mantém a proporção da imagem */
     display: block;   /* Ajuda a evitar espaços indesejados */
 }        
+        .image-placeholder img {
+    max-width: 200px; /* Defina a largura máxima que você deseja para a logo */
+    height: auto;     /* Isso mantém a proporção da imagem */
+    display: block;   /* Ajuda a evitar espaços indesejados */
+}        
+        
+        
         /* --- Media Queries for Responsiveness --- */
         @media (max-width: 768px) {
             .hero-container,
@@ -779,19 +786,19 @@
             <div class="process-grid">
                 <div class="process-item">
                     <div class="process-text">
-                        <img src="imagem3.png" alt="Produto Principal">
+                        <img src="imagem3.png" alt="Inicio">
                         <div>Início (criação)</div>
                     </div>
                 </div>
                 <div class="process-item">
                     <div class="process-text">
-                        <img src="imagem4.png" alt="Produto Principal">
+                        <img src="imagem4.png" alt="Meio">
                         <div>Meio (aplicação)</div>
                     </div>
                 </div>
                 <div class="process-item">
                     <div class="process-text">
-                        <img src="imagem5.png" alt="Produto Principal">
+                        <img src="imagem5.png" alt="Fim">
                         <div>Fim (resultados)</div>
                     </div>
                 </div>
@@ -831,8 +838,7 @@
             </div>
             <div class="hero-image-container">
                 <div class="image-placeholder">
-                    <div class="image-placeholder-title">IMAGEM 6: Produto Final</div>
-                    <div class="image-placeholder-subtitle">Embalagem do método</div>
+                    <img src="imagem6.png" alt="Produto Final">
                 </div>
             </div>
         </div>
